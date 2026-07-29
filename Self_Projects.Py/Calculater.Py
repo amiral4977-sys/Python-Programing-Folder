@@ -1,6 +1,6 @@
 num=float(input("Enter your First number: "))
 
-op=input("Operator: +,-,*,/ : ")
+op=input("Operator: +,-,*,/ :,%, ** ")
 
 num2=float(input("Enter your Second number: "))
 
@@ -13,5 +13,12 @@ elif op=="*":
 
 elif op=="/":
     print(num/num2) 
+
+elif op=="%":
+    print(num%num2)
+
+elif op=="**":
+    print(num**num2)    
+
 else:
     print("Invalid Operator")
